@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+span{
+    color: blueviolet; 
+    border: 1px solid; 
+    padding: 10px;
+}
+
+.videos{
+    display: flex;
+}
+img{
+    margin: auto;
+    width: 350ra0px;
+    height: auto;
+    
+}
+
+.Imagem {
+  position: fixed;
+  bottom: 0;
+  left: 920px;
+}
+
