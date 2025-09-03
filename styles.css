@@ -13,9 +13,12 @@ span{
 
 .videos{
     display: flex;
+    
+    justify-content: space-between;
+
 }
 img{
-    margin: auto;
+   
     width: 350ra0px;
     height: auto;
     
@@ -27,3 +30,6 @@ img{
   left: 920px;
 }
 
+.videos img:last-child{
+    margin-left: 800px;
+}
