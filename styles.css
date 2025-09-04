@@ -1,8 +1,8 @@
 body {
     background-color: black;
     color: aqua;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+   font-family: 'Times New Roman', Times, serif;  
+    
 }
 
 span{
@@ -32,4 +32,43 @@ img{
 
 .videos img:last-child{
     margin-left: 800px;
+}
+
+*{
+    margin: 1000;
+    padding: 1000;
+    box-sizing: border-box;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header{
+    padding: 40px;
+}
+
+.menu-desktop{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+    margin-bottom: 40px;
+  text-decoration: none;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    gap: 200px;
+}
+
+li{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+   
 }
