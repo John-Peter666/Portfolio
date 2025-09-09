@@ -5,10 +5,18 @@ body {
     
 }
 
+.flex{
+    display: flex;
+}
+
 span{
-    color: #5c5c5c; 
-    border: 1px solid; 
-    padding: 10px;
+    color: #910385; 
+     
+    
+}
+
+.js{
+    color: #f0db4f;
 }
 
 .videos{
@@ -120,4 +128,71 @@ border-radius: 30px;
 .logo{
    display: flex;
    justify-content:center;
+}
+
+
+
+
+
+
+
+/* topo do site */
+
+
+section.topo-do-site{
+    display: flex;
+    padding: 40px 4%;
+}
+
+
+.txt-topo-site h1{
+    container: flex;
+    font-size: 50px;
+    justify-content:left ;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.txt-topo-site p{
+    
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.img-topo-site img{
+    width: 500px;
+    height: auto;
+    margin-left: 100px;
+    border-radius: 20000px;
+}
+
+
+.botao-contato2 button{
+padding: 10px 40px;
+font-size: 18px;
+font-weight:700;
+background-color: #00ff08;
+border: 0;
+border-radius:30px;
+cursor: pointer;
+}
+
+.botao-contato2{
+    display: inline-block;
+    right: 130px;
+    top: 255px;
+    border: 0;
+    outline: none;
+
+}
+
+.botao-contato2:focus{
+    outline: none;
+}
+
+.botao-contato2:hover{
+box-shadow: 0px 0px 20px #00ff08;
+
+
+border-radius: 30px;
 }
