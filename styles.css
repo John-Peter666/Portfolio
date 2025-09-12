@@ -1,183 +1,121 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: #5c5c5c;
-   font-family: 'Times New Roman', Times, serif;  
-    
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: #00ff08;
+
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-span{
-    color: #910385; 
-     
-    
+span {
+    color: #910385;
+
+
 }
 
-.js{
+.js {
     color: #f0db4f;
 }
 
-.videos{
+
+.interface {
     display: flex;
-    
+    flex-direction: row;
     justify-content: space-between;
-
-}
-img{
-   
-    width: 350ra0px;
-    height: auto;
-    
-}
-
-.Imagem {
-  position: fixed;
-  bottom: 0;
-  left: 920px;
-}
-
-.videos img:last-child{
-    margin-left: 800px;
-}
-
-*{
-    margin: 1000;
-    padding: 1000;
-    box-sizing: border-box;
-}
-.interface{
-    max-width: 1280px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-header{
+    align-items: center;
     padding: 40px;
+    border: 2px solid #00ff08;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px #00ff08;
+    margin-top: 20px;
+
 }
 
-.menu-desktop{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    font-size: 20px;
-    margin-bottom: 40px;
-  text-decoration: none;
-  margin-top: 100px;
-}
-
-ul{
+ul {
     display: flex;
     text-decoration: none;
     gap: 200px;
-    
+
 }
 
-a{
+a {
+    font-size: 30px;
     text-decoration: none;
-    
-    color: #5c5c5c;
+    color: white;
     display: inline-block;
-    transition: .2s;
-    
+    transition: .3s;
+
 }
 
-a:hover{
-  color: #ffff;
-  transform: scale(1.1);  
+a:hover {
+    color: #ffff;
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
-header{
-    display:flex ;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-between ;
-}
 
-header .botao-contato button{
-padding: 10px 40px;
-font-size: 18px;
-font-weight:700;
-background-color: #00ff08;
-border: 0;
-border-radius:30px;
-cursor: pointer;
-}
-
-.botao-contato{
-    position: absolute;
-    right: 130px;
-    top: 255px;
+.interface .botao-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #00ff08;
     border: 0;
-    outline: none;
-
+    border-radius: 30px;
+    cursor: pointer;
 }
-
-.botao-contato:focus{
-    outline: none;
-}
-
-.botao-contato:hover{
-box-shadow: 0px 0px 20px #00ff08;
-
-
-border-radius: 30px;
-}
-
-.logo{
-   display: flex;
-   justify-content:center;
-}
-
-
-
-
-
-
 
 /* topo do site */
 
 
-section.topo-do-site{
+.topo-do-site {
     display: flex;
-    padding: 40px 4%;
+    margin-top: 50px;
 }
 
 
-.txt-topo-site h1{
+.txt-topo-site h1 {
     container: flex;
     font-size: 50px;
-    justify-content:left ;
+    justify-content: left;
     margin-bottom: 50px;
     color: #ffffff;
 }
 
-.txt-topo-site p{
-    
+.txt-topo-site p {
+
     margin-bottom: 50px;
     color: #ffffff;
 }
 
-.img-topo-site img{
+.img-topo-site img {
+    display: inline-block;
     width: 500px;
     height: auto;
     margin-left: 100px;
-    border-radius: 20000px;
+    border-radius: 2000px;
+}
+
+.img-topo-site:hover {
+    display: inline-block;
+    transform: scale(1.1);
+    transition: .6S;
 }
 
 
-.botao-contato2 button{
-padding: 10px 40px;
-font-size: 18px;
-font-weight:700;
-background-color: #00ff08;
-border: 0;
-border-radius:30px;
-cursor: pointer;
+.botao-contato2 button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
 }
 
-.botao-contato2{
+.botao-contato2 {
     display: inline-block;
     right: 130px;
     top: 255px;
@@ -186,13 +124,13 @@ cursor: pointer;
 
 }
 
-.botao-contato2:focus{
+.botao-contato2:focus {
     outline: none;
 }
 
-.botao-contato2:hover{
-box-shadow: 0px 0px 20px #00ff08;
+.botao-contato2:hover {
+    box-shadow: 0px 0px 20px #00ff08;
 
 
-border-radius: 30px;
+    border-radius: 30px;
 }
